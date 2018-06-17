@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Setor</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<header>
+        <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#"></a>
+                        <a class="nav-item nav-link" href="telaPrincipal.html">Painel de Controle</a>
+                        <a class="nav-item nav-link" href="#">
+                            <i class="material-icons">person_pin</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<div class="container jumbotron">
+
+		<h1>Criar Setor</h1>
+		<hr/>
+		<row>
+			<div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Setor</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Insira um setor" aria-label="Setor" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Responsavel</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Insira um responsavel" aria-label="Setor" aria-describedby="basic-addon1">
+            </div>
+            <button type="button" class="btn btn-outline-dark">Cadastrar</button>
+		</row></br></br>
+        <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Setor</th>
+                    <th scope="col">Responsavel</th>
+                    <th scope="col"></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" />
+                    </td>
+                    <td>Setor 1</td>
+                    <td>Responsavel 1</td>
+                    <td>
+                        <!-- <div class="row"> -->
+                            <div class="edit-bg">
+
+                                <div class="btn-edit-bg">
+                                    
+                                    <button class="btn btn-dark  btn-edit" data-toggle="modal" data-target="#ww">Editar</button>
+                                    <button class="btn btn-dark btn-edit">Excluir</button>
+                
+                            </div>
+                                
+                            
+                        <!-- </div> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+		<br>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "backend-malopes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "export NODE_ENV=test || \"SET NODE_ENV=test\" && mocha ./**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.5",
+    "mustache": "^2.3.0",
+    "validator": "^10.3.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.1.0",
+    "supertest": "^3.0.0"
+  }
+}
